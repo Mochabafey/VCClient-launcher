@@ -1,0 +1,17 @@
+# 编译产物（可选：本仓库包含它，方便直接取用）
+# 如果你不想提交二进制，取消下面这行的注释
+# VCClient-launcher.exe
+
+# 运行时生成的文件（用户目录里的，不该入库）
+launcher.log
+vcclient*.log
+settings/
+modules/
+model_dir/
+browser_profile/
+tmp_dir/
+upload_dir/
+*.disabled
+.fast-hide.ps1
+.modules_verified
+.modules_verified.json
